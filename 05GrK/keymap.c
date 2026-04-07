@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,         KC_B,           KC_L,           KC_D,           KC_W,           KC_Q,                                           KC_J,           KC_F,           KC_O,           KC_U,           DUAL_FUNC_1,    CW_TOGG,        
     OSM(MOD_LSFT),  KC_N,           KC_R,           KC_T,           KC_S,           KC_G,                                           KC_Y,           KC_H,           KC_A,           KC_E,           KC_I,           OSM(MOD_RSFT),  
     DUAL_FUNC_0,    MT(MOD_LGUI, KC_Z),MT(MOD_LALT, KC_X),MT(MOD_LCTL, KC_M),KC_C,           KC_V,                                           KC_K,           KC_P,           MT(MOD_RCTL, KC_DOT),MT(MOD_LALT, KC_SLASH),MT(MOD_RGUI, KC_COMMA),DUAL_FUNC_0,    
-    KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, OSM(MOD_LGUI),  MO(3),                                          MO(4),          OSM(MOD_HYPR),  TD(DANCE_0),    KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
+    KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, QK_REPEAT_KEY,  MO(3),                                          MO(4),          OSM(MOD_HYPR),  TD(DANCE_0),    KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
                                                     LT(2, KC_SPACE),LT(5, KC_ESCAPE),                                KC_ENTER,       LT(2, KC_SPACE)
   ),
   [1] = LAYOUT_voyager(
