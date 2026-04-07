@@ -1,0 +1,3 @@
+#define JP_YEN KC_INT3
+#define JP_MEISU KC_LANGUAGE_2
+#define JP_MKANA KC_LANGUAGE_1
